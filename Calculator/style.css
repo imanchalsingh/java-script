@@ -43,7 +43,7 @@
   cursor: pointer;
 }
 .input-button:hover {
-  background-color: aliceblue;
+  background-color: rgb(157, 157, 157);
   color: black;
   transition: 0.3s all;
 }

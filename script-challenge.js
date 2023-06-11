@@ -79,3 +79,8 @@
 // };
  
 // checkWinner(scoreDolphins, scoreKoalas);
+
+
+const number1 = 5;
+const number2 = 10;
+console.log(`Multiply is ${number1*number2}\n`,`Division is ${number1/number2}\n`,`Sum is ${number1+number2}\n`,`Substraction is ${number1-number2}`);
