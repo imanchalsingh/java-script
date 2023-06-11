@@ -1,0 +1,58 @@
+.container {
+  width: 350px;
+  height: 450px;
+  padding: 20px;
+  border-radius: 14px;
+  filter: drop-shadow(0 0 0.75rem rgb(100, 96, 97));
+  background-color: rgb(228, 225, 225);
+}
+
+.display-section {
+  width: 100%;
+  height: 120px;
+  color: white;
+  font-size: 30px;
+  text-align: right;
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(91, 86, 86);
+}
+
+#display-section-content {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.number-inputs {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-button {
+  border-radius: 50%;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: white;
+  background-color: rgb(67, 68, 70);
+  filter: drop-shadow(0 0 0.75rem rgb(100, 96, 97));
+  cursor: pointer;
+}
+.input-button:hover {
+  background-color: aliceblue;
+  color: black;
+  transition: 0.3s all;
+}
+
+#number-row1,
+#number-row2,
+#number-row3,
+#number-row4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
