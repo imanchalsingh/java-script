@@ -1,0 +1,1 @@
+const calcTip = function (bill) {

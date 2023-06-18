@@ -58,16 +58,16 @@
 //   console.log("Both win the trophy");
 // }
 // const bill = 275;
-// const tip = 41.25; 
+// const tip = 41.25;
 // console.log("The bill was 275, the tip was 41.25, and the total value 316.25");
 
 // const calcAverage = (a, b, c) => (a + b + c) / 3;
 // console.log(calcAverage(3, 4, 5));
- 
+
 // let scoreDolphins = calcAverage(44, 23, 71);
 // let scoreKoalas = calcAverage(65, 54, 49);
 // console.log(scoreDolphins, scoreKoalas);
- 
+
 // const checkWinner = function (avgDolphins, avgKoalas) {
 //   if (avgDolphins >= 2 * avgKoalas) {
 //     console.log(`Dolphins win (${avgDolphins} vs. ${avgKoalas})`);
@@ -77,10 +77,87 @@
 //     console.log('No team wins...');
 //   }
 // };
- 
+
 // checkWinner(scoreDolphins, scoreKoalas);
 
+// const number1 = 5;
+// const number2 = 10;
+// console.log(`Multiply is ${number1*number2}\n`,`Division is ${number1/number2}\n`,`Sum is ${number1+number2}\n`,`Substraction is ${number1-number2}`);
 
-const number1 = 5;
-const number2 = 10;
-console.log(`Multiply is ${number1*number2}\n`,`Division is ${number1/number2}\n`,`Sum is ${number1+number2}\n`,`Substraction is ${number1-number2}`);
+//Fundamental-2 Video Challenge.
+// Let Example- Harsh is a 23 years old teacher. Let see he has driver's license or not?
+// Good Luck.👍🏻
+
+// const harsh = {
+  // firstName: "Harsh",
+  // lastName: "Harsh",
+  // birthyear: "2000",
+  // job: "teacher",
+  // hasDrivingLicence: true,
+// 
+  // calcAge: function () {
+    // this.age = 2023 - this.birthyear;
+    // return this.age;
+  // },
+  // getSummary: function () {
+    // return `${this.firstName} is a ${this.calcAge()}-year old ${
+      // harsh.job
+    // }, and he has ${this.hasDrivingLicence ? "a" : "no"} driver's licence`;
+  // },
+// };
+// 
+// console.log(harsh.calcAge());
+// console.log(harsh.getSummary());
+
+
+// const bills = ['22, 295, 176, 440, 37, 105, 10, 1100, 86, 52']
+// const calcTip = function (bill) {
+  // return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// }
+//  
+//  
+// const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+// const tips = [];
+// const totals = [];
+//  
+// for (let i = 0; i < bills.length; i++) {
+  // const tip = calcTip(bills[i]);
+  // tips.push(tip);
+  // totals.push(tip + bills[i]);
+// }
+//  
+// console.log(bills, tips, totals);
+// 
+// 
+// With Bonus:
+
+// const calcTip = function (bill) {
+  // return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// }
+//  
+//  
+// const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+// const tips = [];
+// const totals = [];
+//  
+// for (let i = 0; i < bills.length; i++) {
+  // const tip = calcTip(bills[i]);
+  // tips.push(tip);
+  // totals.push(tip + bills[i]);
+// }
+//  
+// console.log(bills, tips, totals);
+//  
+// const calcAverage = function (arr) {
+  // let sum = 0;
+  // for (let i = 0; i < arr.length; i++) {
+    // sum = sum + arr[i];
+    // sum += arr[i];
+  // }
+  // return sum / arr.length;
+// }
+//  
+// console.log(calcAverage([2, 3, 7]));
+// console.log(calcAverage(totals));
+// console.log(calcAverage(tips));
+
