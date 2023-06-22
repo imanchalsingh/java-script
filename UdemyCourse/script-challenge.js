@@ -89,75 +89,85 @@
 // Good Luck.👍🏻
 
 // const harsh = {
-  // firstName: "Harsh",
-  // lastName: "Harsh",
-  // birthyear: "2000",
-  // job: "teacher",
-  // hasDrivingLicence: true,
-// 
-  // calcAge: function () {
-    // this.age = 2023 - this.birthyear;
-    // return this.age;
-  // },
-  // getSummary: function () {
-    // return `${this.firstName} is a ${this.calcAge()}-year old ${
-      // harsh.job
-    // }, and he has ${this.hasDrivingLicence ? "a" : "no"} driver's licence`;
-  // },
+// firstName: "Harsh",
+// lastName: "Harsh",
+// birthyear: "2000",
+// job: "teacher",
+// hasDrivingLicence: true,
+//
+// calcAge: function () {
+// this.age = 2023 - this.birthyear;
+// return this.age;
+// },
+// getSummary: function () {
+// return `${this.firstName} is a ${this.calcAge()}-year old ${
+// harsh.job
+// }, and he has ${this.hasDrivingLicence ? "a" : "no"} driver's licence`;
+// },
 // };
-// 
+//
 // console.log(harsh.calcAge());
 // console.log(harsh.getSummary());
 
-
 // const bills = ['22, 295, 176, 440, 37, 105, 10, 1100, 86, 52']
 // const calcTip = function (bill) {
-  // return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 // }
-//  
-//  
+//
+//
 // const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 // const tips = [];
 // const totals = [];
-//  
+//
 // for (let i = 0; i < bills.length; i++) {
-  // const tip = calcTip(bills[i]);
-  // tips.push(tip);
-  // totals.push(tip + bills[i]);
+// const tip = calcTip(bills[i]);
+// tips.push(tip);
+// totals.push(tip + bills[i]);
 // }
-//  
+//
 // console.log(bills, tips, totals);
-// 
-// 
+//
+//
 // With Bonus:
 
 // const calcTip = function (bill) {
-  // return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 // }
-//  
-//  
+//
+//
 // const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 // const tips = [];
 // const totals = [];
-//  
+//
 // for (let i = 0; i < bills.length; i++) {
-  // const tip = calcTip(bills[i]);
-  // tips.push(tip);
-  // totals.push(tip + bills[i]);
+// const tip = calcTip(bills[i]);
+// tips.push(tip);
+// totals.push(tip + bills[i]);
 // }
-//  
+//
 // console.log(bills, tips, totals);
-//  
+//
 // const calcAverage = function (arr) {
-  // let sum = 0;
-  // for (let i = 0; i < arr.length; i++) {
-    // sum = sum + arr[i];
-    // sum += arr[i];
-  // }
-  // return sum / arr.length;
+// let sum = 0;
+// for (let i = 0; i < arr.length; i++) {
+// sum = sum + arr[i];
+// sum += arr[i];
 // }
-//  
+// return sum / arr.length;
+// }
+//
 // console.log(calcAverage([2, 3, 7]));
 // console.log(calcAverage(totals));
 // console.log(calcAverage(tips));
 
+// let i = 1;
+// while (i <= 5) {
+// console.log(i);
+// i++;
+// }
+//
+//
+// for (i = 0; i <= 10; i++) {
+// console.log(`This is number:${i}`,typeof i);
+// }
+//
