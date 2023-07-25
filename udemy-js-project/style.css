@@ -1,0 +1,98 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fff;
+  background-color: rgb(36, 36, 36);
+}
+.header-part{
+    display: flex;
+    flex-direction: row;
+    row-gap: 40%;
+}
+.number-limit{
+    margin-left: 65%;
+    padding-top: 17px;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.main-role {
+  display: flex;
+  border-top: #fff solid 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 30%;
+}
+.again-btn {
+  margin-top: 2%;
+  margin-left: 3%;
+  border-style: none;
+  width: 90px;
+  height: 23px;
+  background-color: #fff;
+  color: #000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  align-items: center;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.check-btn {
+  border-style: none;
+  width: 90px;
+  height: 27px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  margin-top: 50%;
+  margin-left: 20%;
+  cursor: progress;
+}
+.score-result {
+  border-style: none;
+  width: 53px;
+  height: 50px;
+  margin-bottom: -27px;
+}
+.score-result-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.enter-number{
+  border: #fff 3px solid;
+  background-color: #ffffff00;
+  width: 100px;
+  height: 45px;
+  margin-top: 90px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  /* margin-left: 40%; */
+}
+.score-details {
+margin-top: 10%;
+}
+p{
+    font-size: 25px;
+}
+.total-score{
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+    width: 35px;
+    height: 30px;
+}
+
+.total-Highscore{
+    background-color: rgba(255, 255, 
+255, 0);
+border-style: none;
+width: 35px;
+height: 30px;
+}
+
+.score-result::placeholder{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    text-align: center;
+}
