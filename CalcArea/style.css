@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: none;
+  height: 35px;
+  width: 130px;
+  background-color: rgb(209, 56, 0);
+  color: white;
+  font-weight: bold;
+  margin: auto;
+  bottom: 0;
+  cursor: pointer;
+}
+.content1 {
+  margin-bottom: 20px;
+  border: 5px solid black;
+  padding: 20px;
+  height: 250px;
+  width: 500px;
+}
+
+.answers-value {
+  padding: 10px;
+  border: 2px solid green;
+  margin-bottom: 20px;
+}
+.content2 {
+  margin-bottom: 20px;
+  border: 5px solid black;
+  padding: 20px;
+  height: 250px;
+  width: 500px;
+}

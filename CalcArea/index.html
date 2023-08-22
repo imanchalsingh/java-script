@@ -4,45 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="stylesheet" href="style.css" />
     <title>JS CODING</title>
   </head>
-  <style>
-    body {
-      display: flex;
-      flex-direction: row;
-      gap: 70px;
-      justify-content: center;
-      align-items: center;
-    }
-
-    button {
-      border: none;
-      height: 35px;
-      width: 130px;
-      background-color: rgb(209, 56, 0);
-      color: white;
-      font-weight: bold;
-      margin: auto;
-      bottom: 0;
-      cursor: pointer;
-    }
-    /* .row1st{
-      height: 80vh;
-    } */
-  </style>
   <body>
     <div class="row1st">
       <div class="box1st">
-        <div
-          style="
-            margin-bottom: 20px;
-            border: 5px solid black;
-            padding: 20px;
-            height: 250px;
-            width: 500px;
-          "
-        >
+        <div class="content1">
           <p>Area of Triangle</p>
           <input
             type="number"
@@ -57,9 +25,7 @@
             placeholder="Enter the height value"
           /><br /><br />
 
-          <div
-            style="padding: 10px; border: 2px solid green; margin-bottom: 20px"
-          >
+          <div class="answers-value">
             <h4 id="triangleArea-of-result"></h4>
           </div>
           <button id="area-of-triangle" onclick="calculateTriangleArea()">
@@ -68,15 +34,7 @@
         </div>
       </div>
       <div class="box2nd">
-        <div
-          style="
-            margin-bottom: 20px;
-            border: 5px solid black;
-            padding: 20px;
-            height: 250px;
-            width: 500px;
-          "
-        >
+        <div class="content2">
           <p>Check number is negative / positive</p>
           <input
             type="number"
@@ -84,9 +42,7 @@
             id="integer-number"
             placeholder="Enter the number"
           /><br /><br />
-          <div
-            style="padding: 10px; border: 2px solid green; margin-bottom: 20px"
-          >
+          <div class="answers-value">
             <h4 id="integer-type-result"></h4>
           </div>
           <button id="check-number" onclick="checkTypeOfNumber()">
@@ -113,9 +69,7 @@
             id="square-side"
             placeholder="Enter the side"
           /><br /><br />
-          <div
-            style="padding: 10px; border: 2px solid green; margin-bottom: 20px"
-          >
+          <div class="answers-value">
             <h4 id="squareArea-of-result"></h4>
           </div>
           <button id="area-of-square" onclick="calculateSquareArea()">
@@ -140,9 +94,7 @@
             id="circle-radius"
             placeholder="Enter the radius"
           /><br /><br />
-          <div
-            style="padding: 10px; border: 2px solid green; margin-bottom: 20px"
-          >
+          <div class="answers-value">
             <h4 id="circleArea-of-result"></h4>
           </div>
           <button id="area-of-circle" onclick="calculateCircleArea()">
