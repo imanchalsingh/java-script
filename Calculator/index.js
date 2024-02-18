@@ -1,7 +1,6 @@
 const displaySectionContent = document.getElementById(
   "display-section-content"
 );
-
 const numberRow1 = document.getElementById("number-row1");
 const numberRow2 = document.getElementById("number-row2");
 const numberRow3 = document.getElementById("number-row3");
