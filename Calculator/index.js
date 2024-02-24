@@ -11,7 +11,6 @@ let number2 = "";
 let currentOperation = "";
 let result = "";
 // displaySectionContent.innerText = "20 + 15 = 35";
-
 const row1Data = ["9", "8", "7", "/"];
 const row2Data = ["6", "5", "4", "*"];
 const row3Data = ["3", "2", "1", "+"];
