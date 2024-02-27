@@ -5,7 +5,6 @@ const numberRow1 = document.getElementById("number-row1");
 const numberRow2 = document.getElementById("number-row2");
 const numberRow3 = document.getElementById("number-row3");
 const numberRow4 = document.getElementById("number-row4");
-
 let number1 = "";
 let number2 = "";
 let currentOperation = "";
